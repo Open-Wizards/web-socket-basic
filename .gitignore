@@ -1,0 +1,21 @@
+# Ignore node_modules directory in both client and server folders
+**/node_modules/
+
+# Ignore build output in the client folder
+client/dist/
+
+
+# Ignore the build directory for the server code
+server/build/
+
+# Ignore package-lock.json files in both client and server folders
+**/package-lock.json
+
+# Ignore the .vscode directory in both client and server folders
+**/.vscode/
+
+# Ignore the .idea directory in both client and server folders
+**/.idea/
+
+#Ignore logs
+**/logs/
